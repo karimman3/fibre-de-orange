@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: #0e131c;
+  color: #e9eef7;
+  font-family: system-ui, Arial;
+}
+
+.nav {
+  display: flex;
+  gap: 14px;
+  padding: 14px;
+  background: #151b24;
+  border-bottom: 1px solid #263142;
+}
+
+.nav a, .nav span {
+  color: #37c6ff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+}
+
+.card {
+  background: #151b24;
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid #263142;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
